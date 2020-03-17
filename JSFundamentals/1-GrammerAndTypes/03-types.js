@@ -54,6 +54,9 @@ let zipcode = 46259;
 let address = firstName + ' ' + lastName + ', ' + aptNumber + ' ' + street + ' ' + city + ' ' + state + ' ' + zipcode;
 console.log(address);
 
+console.log('${firstName} ${lastName}, ${aptNumber} ${street} ${city} ${state} ${zipcode}')
+
+
 // Object
 let firstObject = {
     integer: 50,
