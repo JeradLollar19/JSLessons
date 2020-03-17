@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Movies!</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Movie Title</th>
+            <th>Year</th>
+            <th>Runtime</th>
+            <th>Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><i>Halloween</i></td>
+            <td>1978</td>
+            <td>90min</td>
+            <td>R</td>
+        </tr>
+        <tr>
+            <td><i>The Dark Knight</i></td>
+            <td>2008</td>
+            <td>135min</td>
+            <td>PG-13</td>
+        </tr>
+        <tr>
+            <td><i>Joker</i></td>
+            <td>2019</td>
+            <td>120min</td>
+            <td>R</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+        table{
+            border: 6px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        h2{
+            text-align: center;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        tr:nth-child(odd){
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</body>
+</html>
