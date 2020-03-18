@@ -30,7 +30,7 @@ console.log(typeof toomuch);
 // String
 let stringOne = 'single quotes are cool';
 let stringTwo = "double quotes";
-let stringThree = 'backticks';
+let stringThree = `backticks`;
 
 // Addition
 let first = 1050 + 100;
