@@ -29,3 +29,16 @@ if (name [0] === name[0].toUpperCase()){
     let fullName = firstLetter + restOfName
     console.log(fullName);
 };
+
+// Challenge3
+let age = 15;
+
+if (age <= 17){
+    console.log("Sorry, you\'re too young to do anything");
+} else if ( age <= 20 ){
+    console.log("Yay! You can vote!");
+} else if (age <= 24){
+    console.log("Yay! You can drink!");
+} else {
+    console.log("Yay! You can rent a car!");
+}
