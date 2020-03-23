@@ -43,6 +43,3 @@ console.log(netflix.description);
 
 // Print out Season 2 object
 console.log(netflix.seasonInfo.season2);
-
-// Print individual names of each episode of S3
-netflix.seasonInfo.season3.episodeInfo.forEach(episode => console.log(episode.episodeName));
