@@ -55,11 +55,10 @@ function previousPage() {
 }
 
 function displayResults(json) {
+    let articles = json.response.docs;
     while (section.firstChild) {
         section.removeChild(section.firstChild);
     }
-    let articles = json.response.docs;
-
     if(articles.length === 10) {
         nav.style.display = 'block';
     } else {
